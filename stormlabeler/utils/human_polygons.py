@@ -5,6 +5,7 @@ import matplotlib.pyplot as pyplot
 import netCDF4
 from PIL import Image
 from roipoly import MultiRoi
+from stormlabeler.utils import polygons
 from stormlabeler.utils import general_utils
 from stormlabeler.utils import file_system_utils
 from stormlabeler.utils import error_checking
@@ -167,9 +168,9 @@ def _vertex_list_to_polygon_list(vertex_rows, vertex_columns):
     polygon_objects_grid_coords = []
 
     for i in range(num_polygons):
-        this_polygon_object = polygons.vertex_arrays_to_polygon_object(
-            exterior_x_coords=vertex_columns_by_polygon[i],
-            exterior_y_coords=vertex_rows_by_polygon[i]
+        this_polygon_object = polygons.vertex_arrays_to_polygon(
+            x_coordinates=vertex_columns_by_polygon[i],
+            y_coordinates=vertex_rows_by_polygon[i]
         )
 
         polygon_objects_grid_coords.append(this_polygon_object)
@@ -277,8 +278,8 @@ def capture_polygons(image_file_name, instruction_string=''):
             [this_roi_object.y[0]] + list(reversed(this_roi_object.y))
         )
 
-        this_polygon_object = polygons.vertex_arrays_to_polygon_object(
-            exterior_x_coords=these_x_coords, exterior_y_coords=these_y_coords)
+        this_polygon_object = polygons.vertex_arrays_to_polygon(
+            x_coordinates=these_x_coords, y_coordinates=these_y_coords)
 
         polygon_objects_pixel_coords.append(this_polygon_object)
 
@@ -436,9 +437,8 @@ def polygons_from_pixel_to_grid_coords(
 
         these_grid_rows = num_grid_rows - 1 - these_grid_rows
 
-        this_polygon_object = polygons.vertex_arrays_to_polygon_object(
-            exterior_x_coords=these_grid_columns,
-            exterior_y_coords=these_grid_rows)
+        this_polygon_object = polygons.vertex_arrays_to_polygon(
+            x_coordinates=these_grid_columns, y_coordinates=these_grid_rows)
 
         polygon_objects_grid_coords[k] = this_polygon_object
 
