@@ -44,31 +44,31 @@ OUTPUT_FILE_HELP_STRING = (
 
 INPUT_ARG_PARSER = argparse.ArgumentParser()
 INPUT_ARG_PARSER.add_argument(
-    '--' + IMAGE_FILE_ARG_NAME, type=str, required=True,
+    '-i', '--' + IMAGE_FILE_ARG_NAME, type=str, required=True,
     help=IMAGE_FILE_HELP_STRING)
 
 INPUT_ARG_PARSER.add_argument(
-    '--' + POS_NEG_ARG_NAME, type=int, required=False, default=0,
+    '-posandneg', '--' + POS_NEG_ARG_NAME, type=int, required=False, default=0,
     help=POS_NEG_HELP_STRING)
 
 INPUT_ARG_PARSER.add_argument(
-    '--' + NUM_GRID_ROWS_ARG_NAME, type=int, required=True,
+    '-ngridrows', '--' + NUM_GRID_ROWS_ARG_NAME, type=int, required=True,
     help=NUM_GRID_ROWS_HELP_STRING)
 
 INPUT_ARG_PARSER.add_argument(
-    '--' + NUM_GRID_COLUMNS_ARG_NAME, type=int, required=True,
+    '-ngridcols', '--' + NUM_GRID_COLUMNS_ARG_NAME, type=int, required=True,
     help=NUM_GRID_COLUMNS_HELP_STRING)
 
 INPUT_ARG_PARSER.add_argument(
-    '--' + NUM_PANEL_ROWS_ARG_NAME, type=int, required=True,
+    '-npanelrows', '--' + NUM_PANEL_ROWS_ARG_NAME, type=int, required=True,
     help=NUM_PANEL_ROWS_HELP_STRING)
 
 INPUT_ARG_PARSER.add_argument(
-    '--' + NUM_PANEL_COLUMNS_ARG_NAME, type=int, required=True,
+    '-npanelcols', '--' + NUM_PANEL_COLUMNS_ARG_NAME, type=int, required=True,
     help=NUM_PANEL_COLUMNS_HELP_STRING)
 
 INPUT_ARG_PARSER.add_argument(
-    '--' + OUTPUT_FILE_ARG_NAME, type=str, required=True,
+    '-o', '--' + OUTPUT_FILE_ARG_NAME, type=str, required=True,
     help=OUTPUT_FILE_HELP_STRING)
 
 
