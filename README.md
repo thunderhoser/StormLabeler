@@ -6,9 +6,9 @@ This library allows human to outline tornadic parts of thunderstorms.  Specifica
 
 Run the following commands in a Unix terminal, where `PYTHON_EXE_NAME` is the path to your Python executable.  For example, my Python executable is at `/home/thunderhoser/anaconda3/bin/python3.6`, so my install command is `/home/thunderhoser/anaconda3/bin/python3.6 setup.py install`.  To use your default Python installation, just type `python setup.py install`.
 
-`git clone https://github.com/thunderhoser/StormLabeler.git`
-`cd stormlabeler`
-`${PYTHON_EXE_NAME} setup.py install`
+`git clone https://github.com/thunderhoser/StormLabeler.git` <br/>
+`cd stormlabeler` <br/>
+`${PYTHON_EXE_NAME} setup.py install` <br/>
 
 This should install StormLabeler and all the packages on which it depends.
 
