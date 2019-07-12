@@ -4,11 +4,11 @@ This library allows humans to outline tornadic parts of thunderstorms.  Specific
 
 ## Download and Installation
 
-Run the following commands in a Unix terminal, where `PYTHON_EXE_NAME` is the path to your Python executable.  For example, my Python executable is at `/home/thunderhoser/anaconda3/bin/python3.6`, so my install command is `/home/thunderhoser/anaconda3/bin/python3.6 setup.py install`.  To use your default Python installation, just type `python setup.py install`.
+Run the following commands in a Unix terminal.
 
 `git clone https://github.com/thunderhoser/StormLabeler.git` <br/>
 `cd stormlabeler` <br/>
-`${PYTHON_EXE_NAME} setup.py install` <br/>
+`python setup.py install` <br/>
 
 This should install StormLabeler and all the packages on which it depends.
 
@@ -19,6 +19,10 @@ First, you'll need to download storm images from [here](https://www.google.com).
 The script for labeling storms is called `capture_human_polygons.py`.  It takes two arguments: the input directory `INPUT_DIR_NAME` (containing images to be labeled) and output directory `OUTPUT_DIR_NAME` (where your labels will be saved, as one NetCDF file per storm image).  You can run the script from a Unix terminal with the following command.
 
 `python capture_human_polygons.py -i ${INPUT_DIR_NAME} -o ${OUTPUT_DIR_NAME}`
+
+For example, if you put the images in `/home/thunderhoser/storm_images` and want your labels saved to `/home/thunderhoser/storm_images/human_labels`, your exact command will be the following.
+
+`python capture_human_polygons.py -i "/home/thunderhoser/storm_images" -o "/home/thunderhoser/storm_images/human_labels"
 
 The script will read storm images from `INPUT_DIR_NAME` and present them to you one at a time.  We ask you to outline the parts of the storm that support (give evidence for) tornado production within the next hour.  The interface looks like this:
 
