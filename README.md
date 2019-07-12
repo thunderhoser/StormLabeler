@@ -1,8 +1,8 @@
-## StormLabeler
+# StormLabeler
 
 This library allows humans to outline tornadic parts of thunderstorms.  Specifically, we ask you to outline the parts of each storm that support tornado production within the next hour.  The human labels will be compared with class-activation maps from a convolutional neural network (CNN), which is a type of deep-learning model.  Our goal is to discover if humans and CNNs focus on different parts of the storm.
 
-# Download and Installation
+## Download and Installation
 
 Run the following commands in a Unix terminal, where `PYTHON_EXE_NAME` is the path to your Python executable.  For example, my Python executable is at `/home/thunderhoser/anaconda3/bin/python3.6`, so my install command is `/home/thunderhoser/anaconda3/bin/python3.6 setup.py install`.  To use your default Python installation, just type `python setup.py install`.
 
@@ -12,7 +12,7 @@ Run the following commands in a Unix terminal, where `PYTHON_EXE_NAME` is the pa
 
 This should install StormLabeler and all the packages on which it depends.
 
-# Labeling Storms
+## Labeling Storms
 
 First, you'll need to download storm images from [here](https://www.google.com).  Unzip the storm images to a directory on your machine.  We'll call this directory `INPUT_DIR_NAME`.
 
