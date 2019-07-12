@@ -22,7 +22,7 @@ The script for labeling storms is called `capture_human_polygons.py`.  It takes 
 
 For example, if you put the images in `/home/thunderhoser/storm_images` and want your labels saved to `/home/thunderhoser/storm_images/human_labels`, your exact command will be the following.
 
-`python capture_human_polygons.py -i "/home/thunderhoser/storm_images" -o "/home/thunderhoser/storm_images/human_labels"
+`python capture_human_polygons.py -i "/home/thunderhoser/storm_images" -o "/home/thunderhoser/storm_images/human_labels"`
 
 The script will read storm images from `INPUT_DIR_NAME` and present them to you one at a time.  We ask you to outline the parts of the storm that support (give evidence for) tornado production within the next hour.  The interface looks like this:
 
