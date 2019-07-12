@@ -14,7 +14,7 @@ This should install StormLabeler and all the packages on which it depends.
 
 ## Labeling Storms
 
-First, you'll need to download storm images from [here](https://www.google.com).  Unzip the storm images to a directory on your machine.  We'll call this directory `INPUT_DIR_NAME`.
+First, you'll need to download storm images from [here](https://drive.google.com/file/d/1KkjNFr6rTcwTJfbUMzKZhA74Ns7AS3Up/view?usp=sharing).  Unzip the storm images to a directory on your machine.  We'll call this directory `INPUT_DIR_NAME`.
 
 The script for labeling storms is called `capture_human_polygons.py`.  It takes two arguments: the input directory `INPUT_DIR_NAME` (containing images to be labeled) and output directory `OUTPUT_DIR_NAME` (where your labels will be saved, as one NetCDF file per storm image).  You can run the script from a Unix terminal with the following command.
 
