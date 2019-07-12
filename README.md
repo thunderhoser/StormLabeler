@@ -32,4 +32,4 @@ To draw a new polygon (area that supports tornado production), click on "New ROI
 
 # Sending Results
 
-Once you've labeled as many storms as you want, we ask that you email results (the NetCDF files produced by the script) to [mailto](ryan.lagerquist@ou.edu).
+Once you've labeled as many storms as you want, we ask that you email results (the NetCDF files produced by the script) to [ryan.lagerquist@ou.edu](mailto:ryan.lagerquist@ou.edu).
