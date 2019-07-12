@@ -24,11 +24,11 @@ The script will read storm images from `INPUT_DIR_NAME` and present them to you 
 
 FOOOO
 
-The left panel shows maximum reflectivity from 1-3 km above ground level (AGL), and the right panel shows maximum vorticity from 2-4 km AGL.  Both grids are $32 \times 32$ with 1.5-km spacing ($48 \times 48$ km) and rotated so that storm motion is towards the right.  Colour bars are omitted from the images to be labeled.  However, if you need them as a reference, an image with colour bars is shown below.  The colour scheme (correspondence of colour to value) is the same for every storm.
+The left panel shows maximum reflectivity from 1-3 km above ground level (AGL), and the right panel shows maximum vorticity from 2-4 km AGL.  Both grids are 32 x 32 with 1.5-km spacing (48 x 48 km) and rotated so that storm motion is towards the right.  Colour bars are omitted from the images to be labeled.  However, if you need them as a reference, an image with colour bars is shown below.  The colour scheme (correspondence of colour to value) is the same for every storm.
 
 FOOOOO
 
-To draw a new polygon (area that supports tornado production), click on "New ROI".  Left-click for a new vertex and right-click to close the polygon.  If you accidentally draw an invalid polygon (with less than 3 vertices), don't worry; the script will ignore it.  Once you are finished (you've outlined all the areas that, in your mind, support tornado production), click "Finish".  If the storm contains **no** areas that support tornado production, you can just click "Finish" right away without drawing anything.  After clicking "Finish", the script will save your polygons to a file and display the next image.  There are 400 images, but **don't feel obligated to label them all**.  Just label as many as you want then kill the script (by pressing "Ctrl + C" in the terminal).
+To draw a new polygon (area that supports tornado production), click on "New ROI".  Left-click for a new vertex and right-click to close the polygon.  If you accidentally draw an invalid polygon (with less than 3 vertices), don't worry; the script will ignore it.  Once you are finished (you've outlined all the areas that, in your mind, support tornado production), click "Finish".  If the storm contains **no** areas that support tornado production, you can just click "Finish" right away without drawing anything.  After clicking "Finish", the script will save your polygons to a file and display the next image.  There are 400 images, but **don't feel obligated to label them all**.  Just label as many as you want then kill the script (by pressing `Ctrl + C` in the terminal).
 
 # Sending Results
 
