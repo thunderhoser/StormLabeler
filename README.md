@@ -1,10 +1,16 @@
 # StormLabeler
 
-This library allows humans to outline tornadic parts of thunderstorms.  Specifically, we ask you to outline the parts of each storm that support tornado production within the next hour.  The human labels will be compared with class-activation maps from a convolutional neural network (CNN), which is a type of deep-learning model.  Our goal is to discover if humans and CNNs focus on different parts of the storm.
+This library facilitates two human experiments.  The goal is to determine if machine learning can discover new knowledge about tornadoes.  You will be asked to label storm-centered radar images, some of tornadic storms and some of non-tornadic storms.  Your labels will be compared with a convolutional neural network (CNN).
 
-## Download and Installation
+Once you have labeled as many storms as you want, we ask that you e-mail your labels to [ryan.lagerquist@ou.edu](mailto:ryan.lagerquist@ou.edu).  The labels will be anonymized and contain no personally identifiable information.  By e-mailing your labels, you consent for them to be used in academic research.
 
-Run the following commands in a Unix terminal.
+## Experiment 1: Regions of Interest
+
+In this experiment you will draw regions of interest for each storm.  Specifically, you will outline regions of the storm that, in your mind, contain evidence for next-hour tornado occurrence.  In other words, you will outline regions that most strongly support the prediction that the storm will be tornadic at *some* time in the next hour.
+
+Please follow the steps below.
+
+ 1. **Download and installation**.  Run the following commands in a Linux terminal.
 
 `git clone https://github.com/thunderhoser/StormLabeler.git` <br/>
 `cd stormlabeler` <br/>
