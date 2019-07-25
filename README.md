@@ -66,7 +66,7 @@ Please follow the steps below.
     
     ![Experiment 2 interface with no regions labeled](images/nd_screenshot01.png)
     
-    After labeling a few regions, the interface might look like this:
+    After labeling a few regions, the interface might look like this.  You can click in either panel -- the reflectivity or vorticity panel.
     
     ![Experiment 2 interface with a few regions labeled](images/nd_screenshot02.png)
 
