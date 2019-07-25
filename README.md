@@ -12,11 +12,11 @@ Please follow the steps below.
 
  1. **Download and installation**.  Run the following commands in a Linux terminal.
 
-`git clone https://github.com/thunderhoser/StormLabeler.git` <br/>
-`cd stormlabeler` <br/>
-`python setup.py install` <br/>
+    `git clone https://github.com/thunderhoser/StormLabeler.git` <br/>
+    `cd stormlabeler` <br/>
+    `python setup.py install` <br/>
 
-This should install StormLabeler and all the packages on which it depends.
+    This should install StormLabeler and all the packages on which it depends.
 
 ## Labeling Storms
 
