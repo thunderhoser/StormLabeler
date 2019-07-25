@@ -49,3 +49,25 @@ Please follow the steps below.
     **Do not feel obligated to label all the images.**  When you have labeled as many as you want, just exit the script.
     
  3. **Send results** (NetCDF files produced by the script, which contain your labels) to [ryan.lagerquist@ou.edu](mailto:ryan.lagerquist@ou.edu).  In so doing, you give your consent for the anonymized labels to be used for academic research.
+
+## Experiment 2: Human Novelty Detection
+
+In this experiment you will see machine-based regions of interest (according to the CNN) for each storm.  You will be asked to label regions of interest that disagree with your intuition -- *i.e.*, where the machine thinks there is strong evidence for next-hour tornado occurrence but you don't.
+
+Please follow the steps below.
+
+ 1. **Download storm images** from [here](FOO).  Unzip the storm images to a directory on your machine.  Henceforth, I will assume that this directory is `/home/thunderhoser/experiment2`.
+ 
+ 2. **Run the script** `capture_human_mouse_clicks.py`.  The script requires two input arguments: the input and output directory.  Run the following command from a Linux terminal (your input and output directories will probably be different).
+    
+    `python capture_human_mouse_clicks.py -i "/home/thunderhoser/experiment2" -o "/home/thunderhoser/experiment2/human_labels"`
+    
+    The script will read storm images and present them to you, one at a time.  To label a region of interest as novel or unexpected, just click inside it.  A black diamond will show up wherever you click.  If you find no regions novel or unexpected, simply close the image and move on to the next one.  The interface looks like this:
+    
+    ![Experiment 2 interface with no regions labeled](images/nd_screenshot01.png)
+    
+    After labeling a few regions, the interface might look like this:
+    
+    ![Experiment 2 interface with a few regions labeled](images/nd_screenshot02.png)
+
+ 3. **Send results** (NetCDF files produced by the script, which contain your labels) to [ryan.lagerquist@ou.edu](mailto:ryan.lagerquist@ou.edu).  In so doing, you give your consent for the anonymized labels to be used for academic research.
