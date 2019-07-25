@@ -36,15 +36,15 @@ Please follow the steps below.
     
     The left panel shows maximum reflectivity from 1-3 km above ground level (AGL), and the right panel shows maximum vorticity from 2-4 km AGL.  Both grids are 32 x 32 with 1.5-km spacing (48 x 48 km), and stomrm motion is towards the right.  Colour bars are omitted from the images to be labeled.  However, if you need them as a reference, an image with colour bars is shown below.  The colour scheme (correspondence of colour to value) is the same for every storm.
     
-    FOOOOO
+    ![Storm image without colour bars](images/storm_image_with_colour_bars.png)
     
     To draw a new region, click "New ROI".  Left-click for a new vertex and right-click to close the polygon.  If you accidentally draw an invalid polygon (with less than 3 vertices), don't worry -- it will be ignored.  Once you have drawn all the regions you want, click "Finish".  After drawing one region, the interface might look like this:
     
-    FOOOOO
+    ![Experiment 1 interface with one region](images/cam_screenshot02.png)
     
     After drawing two regions, the interface might look like this:
     
-    FOOOOO
+    ![Experiment 1 interface with two regions](images/cam_screenshot03.png)
     
     **Do not feel obligated to label all the images.**  When you have labeled as many as you want, just exit the script.
     
