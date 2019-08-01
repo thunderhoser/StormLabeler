@@ -4,7 +4,7 @@
 
 I am Amy McGovern from the School of Computer Science at University of Oklahoma, and I invite you to participate in my research project entitled “Comparing What Humans and Machines Learn About Tornadoes”. This research is being conducted at the University of Oklahoma. You were selected as a possible participant because you have expertise in meteorology. You must be at least 18 years of age to participate in this study.
 
-_Please read this document and contact me to ask any questions that you may have BEFORE agreeing to take part in my research._
+<em>Please read this document and contact me to ask any questions that you may have BEFORE agreeing to take part in my research.</em>
 
 **What is the purpose of this research?** The purpose of this research is to identify whether or not machine learning can discover new knowledge about tornadoes.
 
