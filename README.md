@@ -1,3 +1,19 @@
+# Online Consent to Participate in Research 
+
+## Would you like to be involved in research at the University of Oklahoma?
+
+I am Amy McGovern from the School of Computer Science at University of Oklahoma, and I invite you to participate in my research project entitled “Comparing What Humans and Machines Learn About Tornadoes”. This research is being conducted at the University of Oklahoma. You were selected as a possible participant because you have expertise in meteorology. You must be at least 18 years of age to participate in this study.
+
+_Please read this document and contact me to ask any questions that you may have BEFORE agreeing to take part in my research._
+
+**What is the purpose of this research?** The purpose of this research is to identify whether or not machine learning can discover new knowledge about tornadoes.
+
+**How many participants will be in this research?** About 100 people will take part in this research.
+
+**What will I be asked to do?** If you agree to be in this research, you will download this Python library, along with the accompanying thunderstorm images, label as many as of the images as you want, and email the labels to ryan.lagerquist@ou.edu.
+
+**How long will this take?** Your participation will take 15-30 minutes.
+
 # StormLabeler
 
 This library facilitates two human experiments.  The goal is to determine if machine learning can discover new knowledge about tornadoes.  You will be asked to label storm-centered radar images, some of tornadic storms and some of non-tornadic storms.  Your labels will be compared with a convolutional neural network (CNN).
