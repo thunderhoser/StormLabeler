@@ -31,7 +31,10 @@ You can also contact the University of Oklahoma – Norman Campus Institutional 
 *Please print this document for your records. By providing information to the researcher(s), I am agreeing to participate in this research.*
 
 **This research has been approved by the University of Oklahoma, Norman Campus IRB.**
-**IRB Number: ______			Approval date: ______**
+<br />
+**IRB Number: ______**
+<br />
+**Approval date: ______**
 
 # StormLabeler
 
