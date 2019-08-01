@@ -4,7 +4,7 @@
 
 I am Amy McGovern from the School of Computer Science at University of Oklahoma, and I invite you to participate in my research project entitled “Comparing What Humans and Machines Learn About Tornadoes”. This research is being conducted at the University of Oklahoma. You were selected as a possible participant because you have expertise in meteorology. You must be at least 18 years of age to participate in this study.
 
-<em>Please read this document and contact me to ask any questions that you may have BEFORE agreeing to take part in my research.</em>
+**Please read this document and contact me to ask any questions that you may have BEFORE agreeing to take part in my research.**
 
 **What is the purpose of this research?** The purpose of this research is to identify whether or not machine learning can discover new knowledge about tornadoes.
 
@@ -13,6 +13,25 @@ I am Amy McGovern from the School of Computer Science at University of Oklahoma,
 **What will I be asked to do?** If you agree to be in this research, you will download this Python library, along with the accompanying thunderstorm images, label as many as of the images as you want, and email the labels to ryan.lagerquist@ou.edu.
 
 **How long will this take?** Your participation will take 15-30 minutes.
+
+**What are the risks and/or benefits if I participate?** There are no personal risks or benefits from being in this research.  However, you will be helping to advance research at the nexus of meteorology and machine learning, especially in using machine learning to discover new physical knowledge.
+
+**Will I be compensated for participating?** You will not be reimbursed for your time and participation in this research.
+
+**Who will see my information?** In research reports, there will be no information that will make it possible to identify you.  Research records will be stored securely and only approved researchers and the OU Institutional Review Board will have access to the records.
+
+**What will happen to my data in the future?** After removing all identifiers, we might share your data with other researchers or use it in future research without obtaining additional consent from you.
+
+**Do I have to participate?** No. If you do not participate, you will not be penalized or lose benefits or services unrelated to the research. If you decide to participate, you don’t have to answer any question and can stop participating at any time.
+
+**Who do I contact with questions, concerns or complaints?** If you have questions, concerns or complaints about the research or have experienced a research-related injury, contact us at ryan.lagerquist@ou.edu or amcgovern@ou.edu (405-325-5427).
+
+You can also contact the University of Oklahoma – Norman Campus Institutional Review Board (OU-NC IRB) at 405-325-8110 or irb@ou.edu if you have questions about your rights as a research participant, concerns, or complaints about the research and wish to talk to someone other than the researcher(s) or if you cannot reach the researcher(s).
+
+*Please print this document for your records. By providing information to the researcher(s), I am agreeing to participate in this research.*
+
+**This research has been approved by the University of Oklahoma, Norman Campus IRB.**
+**IRB Number: ______			Approval date: ______**
 
 # StormLabeler
 
